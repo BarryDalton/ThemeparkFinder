@@ -1,6 +1,6 @@
 <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
-# Your Project's Name
+# Code Institute Interactive Front-end Milestone Project 2 : Themepark Finder
 
 One or two paragraphs providing an overview of your project.
 
