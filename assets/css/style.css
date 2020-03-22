@@ -35,7 +35,7 @@ p {
 }
 
 #landingpicture {
-  background-image: url("../images/2-1.jpg");
+  background-image: url("../images/themepark2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -74,7 +74,7 @@ section {
     max-height: 400px;
     overflow: auto;
 }
-/*--------------------------------------------Map*/
+/*------------------------------Map*/
 
 #map-container {
     padding-bottom: 50px;
@@ -135,17 +135,17 @@ section {
 .iw_table_icon {
   text-align: right;
 }
-/*------------------- Booking Form*/
+/*------Contact Form*/
 
-#book {
+#contact {
   position: relative;
   height: 3em; }
-  #book a {
+  #contact a {
     position: absolute;
     top: -2em; }
 
 .form-bg {
-  background: url("../images/manflag.jpeg");
+  background: url("../images/#");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -159,14 +159,14 @@ section {
   @media (min-width: 600px) {
 
 
-#booking-form {
+#contact-form {
   background: rgba(255, 255, 255, 0.5);
   margin-bottom: 5em;
   padding-bottom:10px; }
-  #booking-form .form-group {
+  #contact-form .form-group {
     display: block;
     margin: 1em; }
-    #booking-form .form-group label {
+    #contact-form .form-group label {
       color: #000000;
       font-weight: bold; }
 
@@ -213,7 +213,7 @@ button.btn.btn-primary:hover {
     text-align: center;
     font-size: 25px;
 }
-/*--------------------------------------------Footer*/
+/*--------Footer*/
 .footer-details {
     display: flex; 
     padding: 20px;

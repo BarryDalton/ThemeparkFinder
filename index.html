@@ -8,7 +8,7 @@
 	<!-- Bootstrap CSS -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		integrity="AIzaSyCsKYASNam3hnM2N0dUl07JgIupwQP9598" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="assets/js/maps.js"></script>
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
@@ -17,7 +17,7 @@
 
 <body>
 	<!--Navigation-->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="mainNav">
 		<div class="container">
 			<a class="navbar-brand js-scroll-trigger" href="#">Themepark Finder</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,7 +32,7 @@
 						<a class="nav-link" href="#find">Find</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#book">Book</a>
+						<a class="nav-link" href="#book">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -72,24 +72,24 @@
 			</ol>
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-					<img src="assets/images/hut.jpeg" class="d-block w-100" alt="hut">
+					<img src="assets/images/themepark4.jpg" class="d-block w-100" alt="themeoark4">
 					<div class="carousel-caption d-none d-md-block">
-						<h5>Glamping</h5>
-						<p>Glamping Pod By the Sea in Scotland.</p>
+						<h5>Rollercoaster</h5>
+						<p>Corkscrew rolercoaster.</p>
 					</div>
 				</div>
 				<div class="carousel-item">
-					<img src="assets/images/fairypool.jpeg" class="d-block w-100" alt="fairypool">
+					<img src="assets/images/themepark3.jpg" class="d-block w-100" alt="themepark3">
 					<div class="carousel-caption d-none d-md-block">
-						<h5>Fairy Pools, Isle of Skye, Inner Hebrides</h5>
-						<p>Take a strole to see the magical and beautiful Fairy Pools.</p>
+						<h5>Krustyland Themepark</h5>
+						<p>The Simpsons ride and Krustyland themed ride.</p>
 					</div>
 				</div>
 				<div class="carousel-item">
-					<img src="assets/images/hill.jpeg" class="d-block w-100" alt="hill">
+					<img src="assets/images/themepark1.jpg" class="d-block w-100" alt="themepark1">
 					<div class="carousel-caption d-none d-md-block">
-						<h5>Glencoe valley and mountains</h5>
-						<p>Climb Glencoe valley and mountains in the Scottish Highlands.</p>
+						<h5>Fortaventura Thempark in Salou</h5>
+						<p>One of the most popular of the Spanish themeparks.</p>
 					</div>
 				</div>
 				<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
@@ -115,7 +115,7 @@
 
 		<hr class="block-divider block-divider--short">
 
-		<p>Type in the city of Scotland and choose from one of the three buttons below.</p>
+		<p>Type in the city and choose from one of the three buttons below.</p>
 		<p>You can view additional information for a venue which will be displayed above it's marker
 			by clicking on it's tile.</p>
 
@@ -131,7 +131,7 @@
 					<!--#/controls-->
 
 					<div class="form-group">
-						<input id="autocomplete" class="form-control" placeholder="Enter a city in Scotland" type="text" />
+						<input id="autocomplete" class="form-control" placeholder="Enter a city" type="text" />
                                 </div>
 					</div>
 					<!--POI buttons-->
@@ -207,22 +207,22 @@
 		<!--./Display style for info window-->
 		<!--./End of Find-->
 
-		<!--- Booking Form-->
+		<!--- Contact Form-->
 
 		<section class="form-bg">
-			<div id="book">
+			<div id="contact">
 				<a>&nbsp;</a>
 			</div>
 
 			<div class="container">
-				<div class="booking-text text-center">
-					<h2>Book with us</h2>
+				<div class="contact-text text-center">
+					<h2>Contact us</h2>
 					<p>Fill out the contact form below and we will be in touch to help you with your next highland
 						breaks.</p>
 				</div>
-				<div id="booking-form" class="row">
+				<div id="contact-form" class="row">
 
-					<form id="booking-form-form" class="col-10 offset-1">
+					<form id="contact-form-form" class="col-10 offset-1">
 						<div class="form-group">
 							<label for="name">Name</label>
 							<input type="text" class="form-control" id="name" name="fromName" required/>
@@ -238,13 +238,13 @@
 									<div class="form-group">
 										<label for="poi-selection">Select a category</label>
 										<select class="form-control" id="poi-selection" name="poi">
-                                <option>Hotel</option>
-                                <option>Restaurant</option>
-                                <option>Attraction</option>
+                                <option>Themepark</option>
+                                <option>Themepark & Travel</option>
+                                <option>Surprise Adventure</option>
                             </select>
 									</div>
 									<div class="form-group">
-										<label for="details">Addition Information</label>
+										<label for="details">Message</label>
 										<textarea class="form-control" id="details" rows="3" name="message"></textarea>
 									</div>
 									<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
@@ -258,15 +258,14 @@
 						<div class="modal-content">
 							<div class="modal-header">
 								<h5 class="modal-title" id="exampleModalLabel">
-									TheHighlandsBreak</h5>
+									Themepark Finder</h5>
 								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                                  </button>
 							</div>
 							<div class="modal-body">
-								<p>Thank You for booking with us,
-									<p>We look forward to helping you with your next Highlands
-										break!</p>
+								<p>Thank you for your message.
+									<p>We will be in contact to confirm your details</p>
 							</div>
 							<div class="modal-footer">
 								<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
