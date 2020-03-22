@@ -39,7 +39,7 @@
       }
 
       //https://developers.google.com/places/supported_types#table3
-      // When the user selects a city, get the place details for the city and
+      // When the user selects a themepark, get the place details for the city and
       // zoom the map in on the city.
       function onPlaceChanged(type) {
         if (type == "") {
@@ -56,7 +56,7 @@
         }
       }
 
-      // Search for amuesment parks in the selected city, within the viewport of the map.
+      // Search for amuesment parks in the selected city.
       function search(type) {
         var search = {
           bounds: map.getBounds(),
@@ -67,7 +67,7 @@
           if (status === google.maps.places.PlacesServiceStatus.OK) {
             clearResults();
             clearMarkers();
-            // Create a marker for each hotel found, and
+            // Create a marker for each themepark found, and
             // assign a letter of the alphabetic to each marker icon.
             for (var i = 0; i < results.length; i++) {
               var markerLetter = String.fromCharCode('A'.charCodeAt(0) + (i % 26));
@@ -78,7 +78,7 @@
                 animation: google.maps.Animation.DROP,
                 icon: markerIcon
               });
-              // If the user clicks a hotel marker, show the details of that hotel
+              // If the user clicks a themepark marker, show the details of that themepark
               // in an info window.
               markers[i].placeResult = results[i];
               google.maps.event.addListener(markers[i], 'click', showInfoWindow);
@@ -153,8 +153,8 @@
         }
       }
 
-      // Get the place details for a hotel. Show the information in an info window,
-      // anchored on the marker for the hotel that the user selected.
+      // Get the place details for a themepark. Show the information in an info window,
+      // anchored on the marker for the themepark that the user selected.
       function showInfoWindow() {
         var marker = this;
         places.getDetails({placeId: marker.placeResult.place_id},
@@ -183,8 +183,8 @@
           document.getElementById('iw-phone-row').style.display = 'none';
         }
 
-        // Assign a five-star rating to the hotel, using a black star ('&#10029;')
-        // to indicate the rating the hotel has earned, and a white star ('&#10025;')
+        // Assign a five-star rating to the themepark, using a black star ('&#10029;')
+        // to indicate the rating the themepark has earned, and a white star ('&#10025;')
         // for the rating points not achieved.
         if (place.rating) {
           var ratingHtml = '';
