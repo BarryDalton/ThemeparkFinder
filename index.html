@@ -8,7 +8,7 @@
 	<!-- Bootstrap CSS -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-		integrity="AIzaSyCsKYASNam3hnM2N0dUl07JgIupwQP9598" crossorigin="anonymous">
+		integrity="AIzaSyCcn93pSXn3J3gN_MdJnNiQ9DkjR9qbzp8" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="assets/js/maps.js"></script>
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
@@ -44,7 +44,7 @@
 	<div id="landingpicture">
 		<div class=" container text-center d-block w-100">
 			<h1>Themepark Finder</h1>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quas excepturi nobis iure eos vitae eligendi. Saepe, sit? Aspernatur tenetur deserunt aut, id illum numquam eligendi voluptatem voluptatibus assumenda quae.</p>
+			<p>Themeparks, adventureparks, waterparks ... who doen't love these and more so where are the best parks to find the big Rollercoaster's, the stomach churning corkscrews, the wetest waterparks and the thrill seeking adventure pakrs.  Themepark Finder will guide you onto your next adventure.</p>
 		</div>
 	</div>
 	<!--./ End of Landing picture-->
@@ -55,8 +55,8 @@
 		<div class="about-text text-center">
 			<h2>About us</h2>
 			<hr class="block-divider block-divider--short">
-			<p>Whoa are we ?</p>
-			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur rem quas nam dolorum labore ex, esse harum, commodi cupiditate ea adipisci a voluptates, velit tempora. Explicabo voluptatibus expedita voluptatum. Veniam?
+			<p>Who are we ?</p>
+			<p>Themepark Finder was created to be a central resource to find, plan a book your next adventure holiday.
 			</p>
 		</div>
 	</section>
@@ -104,6 +104,7 @@
 		</div>
 	</section>
 	<!--./ End of Carousel -->
+
 	<!--Find-->
 	<div id="find">
 		<a>&nbsp;</a>
@@ -111,8 +112,7 @@
 
 	<div class="find-text text-center">
 
-		<h1>Find your adventure</h1>
-
+		<h1>Find your adventure!</h1>
 		<hr class="block-divider block-divider--short">
 
 		<p>Type in the city and choose from one of the three buttons below.</p>
@@ -136,16 +136,10 @@
 					</div>
 					<!--POI buttons-->
 					<div class="justify-content-center row">
-						<!--Hotel button-->
-						<button id="hotel-button" type="submit" class="btn" onClick="onPlaceChanged('lodging')">
-                            <img src="assets/images/button-icons/bed.png" alt="Bed"><br>Hotel</button>
-						<!--Restaurant button-->
-						<button id="restaurant-button" type="submit" class="btn" onClick="onPlaceChanged('restaurant')">
-                            <img src="assets/images/button-icons/restaurant.png" alt="Restaurant"><br>Restaurants</button>
-
+						                      
 						<!--Attractions button--> 
                         <button id="attraction-button" type="submit" class="btn" onClick="onPlaceChanged('tourist_attraction')">
-                            <img src="assets/images/button-icons/monument.png" alt="Monument"><br>Attractions</button>
+                            <img src="assets/images/button-icons/themepark_icon.png" alt="Attractions"><br>Attractions</button>
 					</div>
 					<!-- listing results from map-->
 					<div class="row" id="map-container">
@@ -317,7 +311,8 @@
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 		<script
-			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAB6lsBTP858vgMYEP7rM2yk-ipq3H9XaQ&libraries=places&callback=initMap"
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCP_LldrS19-hk-0II1L7bCtO4OwIYgPpE&libraries=places&callback=initMap"
+            src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCP_LldrS19-hk-0II1L7bCtO4OwIYgPpE">
 			async defer></script>
 		<!--collaps of map js, when nothing in search bar it will retract the map, when city is entered it will pop out-->
 		<script>

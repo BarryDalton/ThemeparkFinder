@@ -1,10 +1,8 @@
 <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
-# Code Institute Interactive Front-end Milestone Project 2 : Themepark Finder
+# Front-end Milestone Project 2 : Themepark Finder
 
-One or two paragraphs providing an overview of your project.
-
-Essentially, this part is your sales pitch.
+Themepark Finder is a website created with HTML, CSS and JS utilising the Google Maps API to 
  
 ## UX
  
