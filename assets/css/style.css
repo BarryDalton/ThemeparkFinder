@@ -17,7 +17,7 @@ html,body {
 .navbar-light
 .navbar-nav
 .nav-link {
-  font-size: 1.3em;
+  font-size: 1.5em;
   }
 /*---------------Landing and paragraph text*/
 h1 {
@@ -28,7 +28,7 @@ h1 {
 p {
     font-weight: bold;
 }
-/*---------------------------Landing picture*/
+/*---------------------------Header picture*/
 #landingpicture p {
     color: #fff;
     text-shadow: 1px 1px #000000;
