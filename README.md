@@ -1,6 +1,7 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+<img src="assets/images/icon.png" style="margin: 0;">
 
-# Interactive Front-end Milestone Project 2 : Themepark Finder
+# Themepark Finder
+## Interactive Front-end Milestone Project 2 
 
 Themepark Finder is a website created with HTML, CSS and JS utilising the Google Maps API to allow a user to search for a themepark and view additional information about that park.
  

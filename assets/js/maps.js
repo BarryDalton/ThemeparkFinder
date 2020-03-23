@@ -2,11 +2,11 @@
       var map, places, infoWindow;
       var markers = [];
       var autocomplete;
-      var countryRestrict = {'country': 'uk'};
-      var MARKER_PATH = 'https://developers.google.com/maps/documentation/javascript/images/marker_green';
-      var hostnameRegexp = new RegExp('^https?://.+?/');
+      const countryRestrict = {'country': 'uk'};
+      const MARKER_PATH = 'https://developers.google.com/maps/documentation/javascript/images/marker_green';
+      const hostnameRegexp = new RegExp('^https?://.+?/');
 
-      var countries = {
+      const countries = {
         'uk': {
           center:{lat: 54.8, lng: -4.6},
           zoom: 5
@@ -42,7 +42,8 @@
       // When the user selects a themepark, get the place details for the city and
       // zoom the map in on the city.
       function onPlaceChanged(type) {
-        if (type == "") {
+          console.log(type)
+        if (!type ) {
             type = "amusement_park";
         }
         
