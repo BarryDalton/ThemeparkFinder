@@ -20,7 +20,9 @@
 	<!--Navigation-->
 	<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="mainNav">
 		<div class="container">
+        <img src="http://placehold.it/150x50?text=Logo" alt="">
 			<a class="navbar-brand js-scroll-trigger" href="#">Themepark Finder</a>
+            
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -66,7 +68,7 @@
 	</section>
 	<!--./ End of About-->
 
-	<!-- Bootstrap Carousel-->
+	<!--------------------------------- Bootstrap4 Carousel ------------------------------------------->
 	<section>
 		<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators">
@@ -86,7 +88,7 @@
 					<img src="assets/images/themepark3.jpg" class="d-block w-100" alt="themepark3">
 					<div class="carousel-caption d-none d-md-block">
 						<h5>Krustyland Themepark</h5>
-						<p>The Simpsons ride and Krustyland themed ride.</p>
+						<p>The Simpsons ride and Krustyland themed attraction.</p>
 					</div>
 				</div>
 				<div class="carousel-item">
@@ -137,10 +139,10 @@
 						<input id="autocomplete" class="form-control" placeholder="Enter a place" type="text" />
                                 </div>
 					</div>
-					<!--POI buttons-->
+					<!--Places button-->
 					<div class="justify-content-center row">
 						                      
-						<!--Attractions button--> 
+						<!-- button icons --> 
                         <button id="attraction-button" type="submit" class="btn" onClick="onPlaceChanged('amusement_park')">
                             <img src="assets/images/button-icons/themepark_icon.png" alt="Amusement Park"><br>Amusement Parks</button>
 					</div>
@@ -204,7 +206,10 @@
 		<!--./Display style for info window-->
 		<!--./End of Find-->
 
-		<!--- Contact Form-->
+
+
+
+		<!---------------------------- Contact Form -------------------------------------------------->
 
 		<section class="form-bg">
 			<div id="contact">
@@ -232,7 +237,7 @@
 									<input type="tel" name="telephone" id="telephone" class="form-control" required/>
                         </div>
 									<div class="form-group">
-										<label for="poi-selection">Select a category</label>
+										<label for="poi-selection">Select an option</label>
 										<select class="form-control" id="poi-selection" name="poi">
                                 <option>Themepark</option>
                                 <option>Themepark & Travel</option>
@@ -314,10 +319,9 @@
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 		<script
 			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCP_LldrS19-hk-0II1L7bCtO4OwIYgPpE&libraries=places&callback=initMap"
-            <!-- src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCP_LldrS19-hk-0II1L7bCtO4OwIYgPpE"> -->
-            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCP_LldrS19-hk-0II1L7bCtO4OwIYgPpE&libraries=places">
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCP_LldrS19-hk-0II1L7bCtO4OwIYgPpE&libraries=places">
 			async defer></script>
-		<!--collaps of map js, when nothing in search bar it will retract the map, when city is entered it will pop out-->
+		<!-- collapse map js, when nothing in search bar it will collapse map, when city is entered it will pop open-->
 		<script>
 			$("#autocomplete").change(function() {
         if ($("#autocomplete").val() != "") {
