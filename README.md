@@ -1,4 +1,4 @@
-<img src="assets/images/icon.png" width="200" height="200"">
+
 
 # Themepark Finder
 ## Interactive Front-end Milestone Project 2 
