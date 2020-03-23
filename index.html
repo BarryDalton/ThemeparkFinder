@@ -13,16 +13,16 @@
 	<script src="assets/js/maps.js"></script>
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 	<title>Themepark Finder - Let's find your next adventure</title>
-    <link rel="shortcut icon" type="img/png" href="assets/images/favicon.ico">
+	<link rel="shortcut icon" type="img/png" href="assets/images/favicon.ico">
 </head>
 
 <body>
 	<!--Navigation-->
 	<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="mainNav">
 		<div class="container">
-        <img src="http://placehold.it/150x50?text=Logo" alt="">
+			<img src="http://placehold.it/150x50?text=Logo" alt="">
 			<a class="navbar-brand js-scroll-trigger" href="#">Themepark Finder</a>
-            
+
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -47,7 +47,9 @@
 	<div id="landingpicture">
 		<div class=" container text-center d-block w-100">
 			<h1>Themepark Finder</h1>
-			<p>Themeparks, adventureparks, waterparks ... who doen't love these and more so where are the best parks to find the big Rollercoaster's, the stomach churning corkscrews, the wetest waterparks and the thrill seeking adventure pakrs.  Themepark Finder will guide you onto your next adventure.</p>
+			<p>Themeparks, adventureparks, waterparks ... who doen't love these and more so where are the best parks to
+				find the big Rollercoaster's, the stomach churning corkscrews, the wetest waterparks and the thrill
+				seeking adventure pakrs. Themepark Finder will guide you onto your next adventure.</p>
 		</div>
 	</div>
 	<!--./ End of Landing picture-->
@@ -61,14 +63,14 @@
 			<p>Who are we ?</p>
 			<p>Themepark Finder was created to be a central resource to find, plan a book your next adventure holiday.
 			</p>
-            <div>
-            <p>Did you know that August 14th is national Themepark Day.
-			</p>
-		</div>
+			<div>
+				<p>Did you know that August 14th is national Themepark Day.
+				</p>
+			</div>
 	</section>
 	<!--./ End of About-->
 
-	<!--------------------------------- Bootstrap4 Carousel ------------------------------------------->
+	<!-- Bootstrap4 Carousel -->
 	<section>
 		<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators">
@@ -141,12 +143,12 @@
 					</div>
 					<!--Places button-->
 					<div class="justify-content-center row">
-						                      
-						<!-- button icons --> 
-                        <button id="attraction-button" class="btn" onClick="onPlaceChanged('amusement_park')">
+
+						<!-- button icons -->
+						<button id="attraction-button" class="btn" onClick="onPlaceChanged('amusement_park')">
                             <img src="assets/images/button-icons/themepark_icon.png" alt="Amusement Park"><br>Amusement Parks</button>
 
-                        <button id="attraction-button-lodging" class="btn" onClick="onPlaceChanged('lodging')">
+						<button id="attraction-button-lodging" class="btn" onClick="onPlaceChanged('lodging')">
                             <img src="assets/images/button-icons/accommodation_icon.png" alt="Lodging"><br>Accommodation</button>
 					</div>
 					<!-- listing results from map-->
@@ -212,7 +214,7 @@
 
 
 
-		<!---------------------------- Contact Form -------------------------------------------------->
+		<!-- Contact Form -->
 
 		<section class="form-bg">
 			<div id="contact">
@@ -306,7 +308,7 @@
 							</a>
 						</li>
 					</ul>
-					<!-- Linked to github -->
+					<!-- Footer Credit-->
 					<div class="col-12 text-center small">
 						<a href="https://github.com/BarryDalton"> ThemparkFinder</a>
 					</div>
@@ -322,8 +324,9 @@
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 		<script
 			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCP_LldrS19-hk-0II1L7bCtO4OwIYgPpE&libraries=places&callback=initMap"
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCP_LldrS19-hk-0II1L7bCtO4OwIYgPpE&libraries=places">
-			async defer></script>
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCP_LldrS19-hk-0II1L7bCtO4OwIYgPpE&libraries=places"
+			async defer>
+		</script>
 		<!-- collapse map js, when nothing in search bar it will collapse map, when city is entered it will pop open-->
 		<script>
 			$("#autocomplete").change(function() {
