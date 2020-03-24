@@ -5,7 +5,8 @@ html,body {
 }
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
-/*-----------------------NavBar*/
+
+/*--NavBar*/
 .navbar-nav {
   margin: 1em 0 0 1em; 
   }
@@ -19,7 +20,7 @@ html,body {
 .nav-link {
   font-size: 1.5em;
   }
-/*---------------Landing and paragraph text*/
+/*--Landing page and text*/
 h1 {
   text-shadow: 1px 1px #fff;
   padding-top: 40px;
@@ -28,10 +29,10 @@ h1 {
 p {
     font-weight: bold;
 }
-/*---------------------------Header picture*/
+/*--Header picture  */
 #landingpicture p {
     color: #fff;
-    text-shadow: 1px 1px #fd5e02;
+
 }
 
 #landingpicture {
@@ -52,9 +53,9 @@ p {
 
       height: 400px; 
       padding-top: 75px;
-      } 
-/*-------------sections*/
+      }
 
+/*--sections*/
 section {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -69,12 +70,12 @@ section {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-/*----------------------info window*/
+/*--info window*/
 #info-window {
     max-height: 400px;
     overflow: auto;
 }
-/*------------------------------Map*/
+/*--Map*/
 
 #map-container {
     padding-bottom: 50px;
@@ -85,7 +86,7 @@ section {
    width:100%;
 }
 
-/*------------------------ Listing*/
+/*-- Listing*/
 
 #listings {
   position: absolute;
@@ -135,7 +136,7 @@ section {
 .iw_table_icon {
   text-align: right;
 }
-/*------Contact Form*/
+/*--Contact Form*/
 
 #contact {
   position: relative;
@@ -160,7 +161,7 @@ section {
 
 
 #contact-form {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(34, 25, 121, 0.527);
   margin-bottom: 5em;
   padding-bottom:10px; }
   #contact-form .form-group {
@@ -191,7 +192,7 @@ button.btn.btn-primary:hover {
     color: rgb(193, 218, 241);
     text-decoration: none;
 }
-    /*---------------------------Modal*/
+    /*--Modal*/
 
 .modal {
   display: none;
@@ -208,12 +209,12 @@ button.btn.btn-primary:hover {
     background-color: #fefefe;
     margin: 15% auto;
     padding: 0px;
-    /* border: 1px solid #575656; */
+    /*-- border: 1px solid #575656; --*/
     width: 60%;
     text-align: center;
     font-size: 25px;
 }
-/*--------Footer*/
+/*--Footer Section --*/
 .footer-details {
     display: flex; 
     padding: 20px;
@@ -227,7 +228,7 @@ footer a {
     text-decoration: none;
     
 }
-
+/*--Social Links Section*/
 social-links a {
   font-size: 20px;
   padding: 5px 5px 5px 5px;
@@ -236,6 +237,6 @@ social-links a {
 
 footer a:hover,
 footer a:focus{
-    color: rgb(193, 218, 241);
+    color: rgb(102, 204, 255);
 }
 }}
