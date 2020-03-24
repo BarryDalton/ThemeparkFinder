@@ -8,7 +8,7 @@
 	<!-- Bootstrap CSS -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-		integrity="AIzaSyCcn93pSXn3J3gN_MdJnNiQ9DkjR9qbzp8" crossorigin="anonymous">
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="assets/js/maps.js"></script>
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
@@ -47,8 +47,9 @@
 		<div class=" container text-center d-block w-100">
 			<h1>Themepark Finder</h1>
 			<p>Themeparks, adventureparks, waterparks ... who doen't love these and more so where are the best parks to
-				find the big Rollercoaster's, the stomach churning corkscrews, the wetest waterparks and the thrill
-				seeking adventure pakrs. Themepark Finder will guide you onto your next adventure.</p>
+				find the biggets Rollercoaster's. </p>
+			<p> The stomach churning corkscrews, the wetest waterparks and the thrill
+				seeking adventure parks. Themepark Finder will guide you onto your next adventure.</p>
 		</div>
 	</div>
 	<!--./ End of Landing picture-->
@@ -82,7 +83,7 @@
 					<img src="assets/images/themepark4.jpg" class="d-block w-100" alt="themeoark4">
 					<div class="carousel-caption d-none d-md-block">
 						<h5>Boomerang Rollercoaster</h5>
-						<p>Corkscrew rolercoaster.</p>
+						<p>Six Flags Themepark, St Louis, United States.</p>
 					</div>
 				</div>
 				<div class="carousel-item">
@@ -122,8 +123,9 @@
 		<h1>Find your adventure!</h1>
 		<hr class="block-divider block-divider--short">
 
-		<p>Type in the city and click the attractions button to show you the nearest themeparks.</p>
-		<p>Click on the location for additional information.</p>
+		<p>Begin by typing a city name within the United Kingdom and the a list of matching cities will appear.</p>
+		<p>THe map will update and a list of results will appera on the right-hand side.</p>
+		<p>You can filter your results by Themeparks using the buttons.</p>
 
 	</div>
 	<!-- #mainbutton wraps drop down and city input field-->
@@ -135,22 +137,23 @@
 
 
 					<!--#/controls-->
-
-					<div class="form-group">
-						<input id="autocomplete" class="form-control" placeholder="Enter a place" type="text" />
-                                </div>
-					</div>
-					<!--Places button-->
+					<!--Buttons for Themepark, Hotels-->
 					<div class="justify-content-center row">
 
 						<!-- button icons -->
 						<button id="attraction-button" class="btn" onClick="onPlaceChanged('amusement_park')">
-                            <img src="assets/images/button-icons/themepark_icon.png" alt="Amusement Park"><br>Amusement Parks</button>
+                            <img src="assets/images/button-icons/themepark_icon.png" alt="Amusement Park"><br>Amusements</button>
 
 						<button id="attraction-button-lodging" class="btn" onClick="onPlaceChanged('lodging')">
                             <img src="assets/images/button-icons/accommodation_icon.png" alt="Lodging"><br>Accommodation</button>
 					</div>
-					<!-- listing results from map-->
+
+					<div class="form-group">
+						<input id="autocomplete" class="form-control" placeholder="Enter a Uk city name (e.g. London)" type="text" />
+                                </div>
+					</div>
+
+					<!-- Listing results for map for each location-->
 					<div class="row" id="map-container">
 						<div id="map" class="col-8"></div>
 						<div class="col-4">
@@ -193,25 +196,6 @@
 				</div>
 			</div>
 		</div>
-		<!--./container-->
-		<!--#/main-buttons-->
-		<!--map-->
-		<!-- <script>
-							function initMap() {
-                                var map = new google.maps.Map(document.getElementById("map"), {
-                                    zoom: 6,
-                                    center: { lat: 55.953251, lng:  -3.188267 }
-                                });
-                            }
-						</script> -->
-		<!--./ End of Map \-->
-		<!--./row-->
-		<!--Info window-->
-		<!--./Display style for info window-->
-		<!--./End of Find-->
-
-
-
 
 		<!-- Contact Form -->
 
@@ -246,6 +230,8 @@
                                 <option>Themepark</option>
                                 <option>Themepark & Travel</option>
                                 <option>Surprise Adventure</option>
+                                <option>General Enquiry</option>
+
                             </select>
 									</div>
 									<div class="form-group">
@@ -280,14 +266,21 @@
 				</div>
 			</div>
 		</section>
-		<!--./ Booking End -->
+		<!--./ Contact Form End -->
 		<!--./ Modal End -->
 
-		<!-- Footer -->
+		<!-- Footer Section-->
 		<footer class="container-fluid text-center">
 			<div id="footer-details" class="row">
 				<div class="col-sm-12">
 					<ul class="list-inline social-links">
+
+						<li class="list-inline-item">
+							<a target="_blank" rel="noopener" href="https://www.youtube.com">
+								<i class="fa fa-youtube " aria-hidden="true"></i>
+								<span class="sr-only">Instagram</span>
+							</a>
+						</li>
 						<li class="list-inline-item">
 							<a target="_blank" rel="noopener" href="https://www.facebook.com">
 								<i class="fa fa-facebook" aria-hidden="true"></i>
@@ -307,9 +300,9 @@
 							</a>
 						</li>
 					</ul>
-					<!-- Footer Credit-->
+					<!-- Footer-->
 					<div class="col-12 text-center small">
-						<a href="https://github.com/BarryDalton"> ThemparkFinder</a>
+						<a href="https://github.com/BarryDalton/ThemeparkFinder"> ThemparkFinder</a>
 					</div>
 				</div>
 			</div>
@@ -326,7 +319,9 @@
 			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCP_LldrS19-hk-0II1L7bCtO4OwIYgPpE&libraries=places"
 			async defer>
 		</script>
-		<!-- collapse map js, when nothing in search bar it will collapse map, when city is entered it will pop open-->
+		<!-- collapse maps js, when nothing in search bar, search bar will autocomplete based upon users entering UK city name, 
+        the google map will open, populate with matching results and a list will appear on the right side of the map.  The user can select from the results   -->
+
 		<script>
 			$("#autocomplete").change(function() {
         if ($("#autocomplete").val() != "") {
