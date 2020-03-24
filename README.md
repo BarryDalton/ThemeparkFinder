@@ -28,9 +28,6 @@ As a user to the site:
 </div>
 
 
-![wireframe themepark finder](https://github.com/BarryDalton/ThemeparkFinder/tree/master/assets/wireframes/Wireframe-ThemeparkFinder.png)
-
-
 ## Features
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
