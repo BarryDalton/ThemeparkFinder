@@ -1,5 +1,4 @@
 
-
 # Themepark Finder
 ## Interactive Front-End Milestone Project 2 
 
@@ -7,6 +6,7 @@ Themepark Finder is a website created with HTML, CSS and JS utilising the Google
 
 The website was created to enable a visitor to search, view and plan a trip (vacation) to an amusement or theme park in the United Kingdom.
 
+THe website is deployed to [here](https://barrydalton.github.io/ThemeparkFinder/)
 
  
 ## UX
@@ -76,11 +76,14 @@ To check the website is responsive and sizes correctly deepening on the size of 
 - The developer used **W3C CSS Validation Service** and **W3C  Markup Validation Service** to check the validity of the website code.
     - [W3C CSS validation](https://jigsaw.w3.org/css-validator/)
     - [W3C Markup Validation]( https://validator.w3.org/)
-    
+    - [Font Awesome](https://fontawesome.com/) - Social Media Logos
+    - [GIT](https://git-scm.com/) - Version Control
+    - [GitHub](https://github.com/) - to host the repositories for this project and the live website preview
+
 
 ## Deployment
 
-This project was developed using the [Gitpod Cloud IDE](https://gitpod.io/), committed to git and pushed to GitHub using the built-in function within cloud9. 
+This project was developed using the [Gitpod Cloud IDE](https://gitpod.io/), committed to git and pushed to GitHub using the built-in function within Gitpod.
 
 To deploy this page to GitHub Pages from its [GitHub repository](https://barrydalton.github.io/ThemeparkFinder/), the following steps were taken: 
 1. Log into GitHub. 
