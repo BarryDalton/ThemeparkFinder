@@ -126,7 +126,11 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 ### Content
 - [W3Schools](https://www.w3schools.com/) for its endless resources
 - [Google Place autocomplete hotel search](https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch)
-- https://chris.beams.io/posts/git-commit/ 
+- [Bootstrap Modal] (https://getbootstrap.com/docs/4.0/components/modal/)
+- [Place Autocomplete Hotel Searc] (https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch) I adapteted 
+    that Google provided to find hotels and added a "amusement_park"
+- [Google Maps API Places ](https://developers.google.com/places/supported_types)
+- [Bootstrap 4 with CDN Boilerplate extension](https://www.https://github.com/Eventyret/vscode-bcdn/) provied the boilerplate template for Gitpod.
 
 ### Media
 - The photos used in this site were obtained from Google image search.
@@ -140,4 +144,4 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 
 
 
-## DISCLAIMER - THIS WEBSITE IS FOR EDUCATION PURPOSES ONLY.
+## DISCLAIMER - THIS WEBSITE IS FOR EDUCATIONAL PURPOSES ONLY.
