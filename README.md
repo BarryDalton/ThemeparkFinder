@@ -30,15 +30,13 @@ As a user to the site:
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+    The design started out on paper and I did a quick mockup to get some ideas down, from there I moved over to Balsamq and finalised the design.
+    My plan was to have a simple navigation that was responsive and intuitive for a user. 
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- Landning page / top image of a rolldercoater and some text
+- About us / intro to to why and how the website was created.
+- Find a theme park / using Google Maps API to create a searchable country list that autocompletes and lists the avaialbe themeparks.
+- Contact Form / to make enquires or to make a booking.
 
 ### Features to Implement
 - Enhancements to the search function.
