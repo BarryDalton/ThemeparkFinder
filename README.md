@@ -23,7 +23,8 @@ As a user to the site:
 
 ### Wireframes
 
-[wireframe]: https://github.com/BarryDalton/ThemeparkFinder/tree/master/assets/wireframes/Wireframe-ThemeparkFinder.png "themepark finder wireframe"
+![wireframe themepark finder](https://github.com/BarryDalton/ThemeparkFinder/tree/master/assets/wireframes/Wireframe-ThemeparkFinder.png)
+
 
 ## Features
 
