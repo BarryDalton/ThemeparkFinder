@@ -8,6 +8,14 @@ The website was created to enable a visitor to search, view and plan a trip (vac
 
 THe website is deployed [here](https://barrydalton.github.io/ThemeparkFinder/)
 
+
+<div style="text-align:center;">
+<img src="https://i.imgur.com/31489CF.png">
+</div>
+
+
+
+
  
 ## UX
  
