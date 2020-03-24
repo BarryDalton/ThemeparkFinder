@@ -218,15 +218,16 @@
                         </div>
 							<div class="form-group">
 								<label for="email">Email address</label>
-								<input type="email" class="form-control" id="email" name="emailAddress" required/>
+								<input type="email" class="form-control" id="email" name="emailAddress" placeholder="name@example.com" required/>
                         </div>
 								<div class="form-group">
 									<label for="telephone">Telephone Number</label>
-									<input type="tel" name="telephone" id="telephone" class="form-control" required/>
+									<input type="tel" name="telephone" id="telephone" class="form-control" placeholder="Include country code" required/>
                         </div>
+
 									<div class="form-group">
-										<label for="poi-selection">Select an option</label>
-										<select class="form-control" id="poi-selection" name="poi">
+										<label for="contact-selection">Select an option</label>
+										<select class="form-control" id="contact-selection" name="contact-select">
                                 <option>Themepark</option>
                                 <option>Themepark & Travel</option>
                                 <option>Surprise Adventure</option>
@@ -238,8 +239,8 @@
 										<label for="details">Message</label>
 										<textarea class="form-control" id="details" rows="3" name="message"></textarea>
 									</div>
-									<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                                        Send Message</button>
+									<button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModal">
+                                        Submit Message</button>
 					</form>
 				</div>
 				<!-- Modal-->
