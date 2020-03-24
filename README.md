@@ -6,7 +6,7 @@ Themepark Finder is a website created with HTML, CSS and JS utilising the Google
 
 The website was created to enable a visitor to search, view and plan a trip (vacation) to an amusement or theme park in the United Kingdom.
 
-THe website is deployed to [here](https://barrydalton.github.io/ThemeparkFinder/)
+THe website is deployed [here](https://barrydalton.github.io/ThemeparkFinder/)
 
  
 ## UX
@@ -24,7 +24,7 @@ As a user to the site:
 ### Wireframes
 
 <div style="text-align:center;">
-<img src="https://i.imgur.com/DnUcEZ8.png"></img>
+<img src="https://i.imgur.com/DnUcEZ8.png">
 </div>
 
 
