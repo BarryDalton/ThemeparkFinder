@@ -1,18 +1,28 @@
 
 
 # Themepark Finder
-## Interactive Front-end Milestone Project 2 
+## Interactive Front-End Milestone Project 2 
 
-Themepark Finder is a website created with HTML, CSS and JS utilising the Google Maps API to allow a user to search for a themepark and view additional information about that park.
+Themepark Finder is a website created with HTML, CSS and JS utilising the Google Maps API to allow a user to search for an amusement, themepark and accommodation and view additional information about that park.
+
+THe website was created to enable a visitor to search, view and plan a trip (vacation) to a amusement or themepark in the United kingdom.
+
+
  
 ## UX
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+The website was created as a single page that is split over 4 pages (landing page, about us, carosel, Google Map with some filtering and results and a contact form to allow a visitor to the site to make enquiries)
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+As a user to the site:
+- As a visitor, I want to perform an action, so that I can achieve a goal.
+- As a visitor, I want to be able to search for a city in the United Kingdom and see a list of themeparks.
+- As a visitor, I want to be able to search for a city in the United Kingdom and see a list of corresponding hotels.
+- As a visitor, I want to be able to filter the search results between themeparks and hotels.
+- As a visitor, I want to be able to find additionl inforamtion about a themepark or hotel by selecting the name from search results.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+
+### Wireframes
+
 
 ## Features
 
@@ -26,16 +36,23 @@ For some/all of your features, you may choose to reference the specific project 
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
-### Features Left to Implement
-- Enhancemens to the search function
-- Add additional filtersw with i
+### Features to Implement
+- Enhancemens to the search function.
+- Add additional countries to expand coverage.
+- Add additional filters and navigation.
+- Add FAQ and additioanl page with information about different themeparks and their attractions.
+- Add function to allow visitors to submit reviews, recommendations and tips.
+
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+This website uses HTML, CSS and JS programming languages.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- [Gitpod](https://www.https://www.gitpod.io/) IDE Editor
+- [Bootstrap](https://www.https://getbootstrap.com/) The project uses **Bootstrap 4** to create a responsive website.
+- [Bootstrap 4 with CDN Boilerplate extension](https://www.https://github.com/Eventyret/vscode-bcdn/) to provide Bootstrap 4 starter template. With Jquery, popper.js and Font-Awesome 5
+- [Google Fonts](https://fonts.google.com/) The project uses **Google fonts** to style the website fonts.
+
 
 
 ## Testing
@@ -73,10 +90,12 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- All images were copied from [Google image search](https://www.google.com)
+- W3Schools https://www.w3schools.com/
+- Google Place autocomplete hotel search https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-hotelsearch
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from Google image search.
 
 ### Acknowledgements
 
