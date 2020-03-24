@@ -40,7 +40,7 @@
 			</div>
 		</div>
 	</nav>
-	<!--./ end of Navigation-->
+	<!--./ Navigation end-->
 
 	<!-- Landing picture-->
 	<div id="landingpicture">
@@ -63,11 +63,10 @@
 			<p>Who are we ?</p>
 			<p>Themepark Finder was created to be a central resource to find, plan a book your next adventure holiday.
 			</p>
-            <p> When searching 
-			<div>
-				<p>Did you know that August 14th is national Themepark Day.
-				</p>
-			</div>
+			<p> When searching
+				<div>
+					<p>Did you know that August 14th is national Themepark Day.</p>
+				</div>
 	</section>
 	<!--./ End of About-->
 
@@ -114,7 +113,7 @@
 	</section>
 	<!--./ End of Carousel -->
 
-	<!--Find-->
+	<!--Find a themepark-->
 	<div id="find">
 		<a>&nbsp;</a>
 	</div>
@@ -124,9 +123,10 @@
 		<h1>Find your adventure!</h1>
 		<hr class="block-divider block-divider--short">
 
-		<p>Begin by typing a city name within the United Kingdom and the a list of matching cities will appear.</p>
+		<p>Begin by typing a city name within the United Kingdom and a list of matching cities will autocomplete as you
+			type.</p>
 		<p>THe map will update and a list of results will appera on the right-hand side.</p>
-		<p>You can filter your results by Themeparks using the buttons.</p>
+		<p>You can filter your results by amusement parks or accommodation using the buttons.</p>
 
 	</div>
 	<!-- #mainbutton wraps drop down and city input field-->
@@ -138,7 +138,7 @@
 
 
 					<!--#/controls-->
-					<!--Buttons for Themepark, Hotels-->
+					<!--Buttons for amusement park, hotels-->
 					<div class="justify-content-center row">
 
 						<!-- button icons -->
@@ -154,7 +154,7 @@
                                 </div>
 					</div>
 
-					<!-- Listing results for map for each location-->
+					<!-- Listing results for map for each city location-->
 					<div class="row" id="map-container">
 						<div id="map" class="col-8"></div>
 						<div class="col-4">
@@ -193,8 +193,8 @@
 				</div>
 			</div>
 		</div>
-
-		<!-- Contact Form -->
+		<!-- End of themepark find section -->
+		<!-- Bootstrap Contact Form -->
 
 		<section class="form-bg">
 			<div id="contact">
@@ -240,7 +240,7 @@
                                         Submit Message</button>
 					</form>
 				</div>
-				<!-- Modal-->
+				<!-- Bootstrap Modal-->
 				<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
 					aria-labelledby="exampleModalLabel" aria-hidden="true">
 					<div class="modal-dialog" role="document">
@@ -264,8 +264,8 @@
 				</div>
 			</div>
 		</section>
-		<!--./ Contact Form End -->
-		<!--./ Modal End -->
+		<!--./ Bootstrap Contact Form End -->
+		<!--./ Bootstrap Modal End -->
 
 		<!-- Footer Section-->
 		<footer class="container-fluid text-center">
@@ -298,7 +298,7 @@
 							</a>
 						</li>
 					</ul>
-					<!-- Footer-->
+					<!-- Footer -->
 					<div class="col-12 text-center small">
 						<a href="https://github.com/BarryDalton/ThemeparkFinder"> ThemparkFinder</a>
 					</div>
@@ -306,7 +306,7 @@
 			</div>
 
 		</footer>
-		<!--./footer end -->
+		<!--./Footer end -->
 
 		<!-- Javascript Libaries -->
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
@@ -317,8 +317,12 @@
 			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCP_LldrS19-hk-0II1L7bCtO4OwIYgPpE&libraries=places"
 			async defer>
 		</script>
-		<!-- collapse maps js, when nothing in search bar, search bar will autocomplete based upon users entering UK city name, 
-        the google map will open, populate with matching results and a list will appear on the right side of the map.  The user can select from the results   -->
+		<!-- JS Function 
+        1. will collapse maps js, when nothing in search bar, 
+        2. search bar will autocomplete based upon users entering UK city name, 
+        3. the google map will open, populate with matching results and a list will appear on the right side of the map.  
+        4 .The user can select from the results  
+        JS Function -->
 
 		<script>
 			$("#autocomplete").change(function() {
