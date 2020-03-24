@@ -23,6 +23,11 @@ As a user to the site:
 
 ### Wireframes
 
+<div style="text-align:center;">
+<img src="https://i.imgur.com/DnUcEZ8.png"></img>
+</div>
+
+
 ![wireframe themepark finder](https://github.com/BarryDalton/ThemeparkFinder/tree/master/assets/wireframes/Wireframe-ThemeparkFinder.png)
 
 
